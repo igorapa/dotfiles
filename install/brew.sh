@@ -12,7 +12,7 @@ apps=(
     gifsicle
     git
     mackup
-    node
+    nvm
     peco
     python
     ssh-copy-id

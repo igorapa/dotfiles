@@ -1,5 +1,5 @@
 # If not running interactively, don't do anything
-# 
+#
 
 [ -z "$PS1" ] && return
 
@@ -81,3 +81,7 @@ source $DOTFILES_DIR/terminal/colors.sh
 terminal_set_foreground_color SuperGray
 terminal_set_background_color white
 terminal_set_font "Monaco" 14
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+  . "$(brew --prefix nvm)/nvm.sh"
