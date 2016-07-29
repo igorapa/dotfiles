@@ -16,6 +16,7 @@ apps=(
     peco
     python
     ssh-copy-id
+    tmux
     tree
     vim
     wget
