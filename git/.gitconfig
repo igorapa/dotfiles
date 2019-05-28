@@ -1,0 +1,37 @@
+[user]
+    name = Igor APA
+    email = apa.igor@gmail.com
+
+[github]
+    user = igorapa
+
+[core]
+    editor = vim
+    filemode = false
+    trustctime = false
+
+[color]
+    ui = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = cyan
+
+[grep]
+    lineNumber = true
+
+[help]
+    autocorrect = 1
+
