@@ -29,12 +29,13 @@ for DOTFILE in "$DOTFILES_DIR"/system/.{env,alias,prompt}; do
 done
 
 # git autocomplete
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
 fi
 
 # Clean up
 unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 
 # Export
-export SHELL_BASH SHELL_ZSH OS DOTFILES_DIR
+export SHELL_BASH OS DOTFILES_DIR
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:$PATH"
