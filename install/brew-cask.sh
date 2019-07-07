@@ -4,6 +4,7 @@ apps=(
     dbeaver-community
     docker
     dropbox
+    insomnia
     skype
     slack
     spectacle
