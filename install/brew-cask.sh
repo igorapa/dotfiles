@@ -1,4 +1,5 @@
 apps=(
+    1password-cli
     appcleaner
     caffeine
     dbeaver-community
