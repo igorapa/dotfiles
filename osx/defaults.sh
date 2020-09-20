@@ -44,4 +44,16 @@ defaults write com.apple.screencapture location -string "$HOME/Desktop"
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
+###############################################################################
+# Dock                                                                        #
+###############################################################################
+
+# Set the icon size of Dock items to 32 pixels
+defaults write com.apple.dock tilesize -int 32
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+dockutil --no-restart --remove all
+
 killall Dock;killall SystemUIServer
