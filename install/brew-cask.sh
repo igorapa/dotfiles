@@ -8,6 +8,7 @@ apps=(
     dropbox
     google-chrome
     insomnia
+    notion
     skype
     slack
     spectacle
