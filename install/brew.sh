@@ -7,6 +7,7 @@ apps=(
     bash-completion
     dockutil
     git
+    nvm
     peco
     tmux
     tree
