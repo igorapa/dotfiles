@@ -15,6 +15,7 @@ apps=(
     spotify
     telegram
     visual-studio-code
+    whatsapp
     zoomus
 )
 
