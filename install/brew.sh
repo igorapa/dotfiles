@@ -13,6 +13,7 @@ apps=(
     tree
     vim
     wget
+    yarn
 )
 
 brew install "${apps[@]}"
